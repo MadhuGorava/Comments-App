@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.sub-heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.name-input {
+  margin: 10px;
+  padding: 8px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.desc-text {
+  margin: 10px;
+  padding: 8px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.add-button {
+  background-color: blue;
+  color: azure;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.comment-image {
+  height: 150px;
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    flex-direction: row;
+  }
+  .image-card {
+    order: 1;
+  }
+  .bg-container {
+    flex-direction: column;
+  }
+  .name-input {
+    font-size: 30px;
+  }
+  .desc-text {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .sub-heading {
+    font-size: 25px;
+  }
+  .comment-image {
+    height: 300px;
+    width: 400px;
+  }
+}

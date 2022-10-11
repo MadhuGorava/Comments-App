@@ -1,0 +1,73 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.names-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.description {
+  color: cadetblue;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+
+.buttons-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-button {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
